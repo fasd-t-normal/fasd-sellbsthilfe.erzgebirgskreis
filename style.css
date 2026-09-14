@@ -46,16 +46,16 @@ header {
   text-decoration: none;
 }
 
-.logo img {
-  width: auto;
-  height: 55px;
-  max-width: 220px;
-  object-fit: contain;
-}
+
 
 /* Navigation */
 nav {
-  display: flex;
+  display: flex;.logo img {
+  width: auto;
+  height: 40px;
+  max-width: 220px;
+  object-fit: contain;
+}
   align-items: center;
   gap: 20px;
 }
