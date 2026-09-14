@@ -50,14 +50,17 @@ header {
 
 /* Navigation */
 nav {
-  display: flex;.logo img {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo img {
   width: auto;
   height: 40px;
   max-width: 220px;
   object-fit: contain;
 }
-  align-items: center;
-  gap: 20px;
 }
 
 nav a {
