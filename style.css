@@ -3,24 +3,15 @@
   .kontakt-personen {
   text-align: center;
   margin: 20px auto;
-}
-
-.kontakt-foto {
-  width: 150px;
-  height: 100px;
+   .kontakt-foto {
+  width: 100px;
+  height: 70px;
   object-fit: cover;
   border-radius: 0;
   border: 1px solid #d9d9d9;
   padding: 3px;
+  display: block;
+  margin: 15px auto;
   box-sizing: border-box;
   cursor: pointer;
-}
-
-.kontakt-namen {
-  width: 150px;
-  margin: 8px auto 0;
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
-  font-weight: 600;
 }
